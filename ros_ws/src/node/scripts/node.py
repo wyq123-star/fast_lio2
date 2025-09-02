@@ -22,7 +22,6 @@ def cmd_vel_callback(msg):
 
 if __name__ == '__main__':
     rospy.init_node("keyboard_listener", anonymous=True)
-    print("hello Irvingao! this is ur first ros python code! Good luck for u!")
 
     rospy.Subscriber("/turtle1/cmd_vel", Twist, cmd_vel_callback, queue_size=10)
     
