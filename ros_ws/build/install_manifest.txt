@@ -1,0 +1,11 @@
+/home/yutou/fastlivo2/ros_ws/install/_setup_util.py
+/home/yutou/fastlivo2/ros_ws/install/env.sh
+/home/yutou/fastlivo2/ros_ws/install/setup.bash
+/home/yutou/fastlivo2/ros_ws/install/local_setup.bash
+/home/yutou/fastlivo2/ros_ws/install/setup.sh
+/home/yutou/fastlivo2/ros_ws/install/local_setup.sh
+/home/yutou/fastlivo2/ros_ws/install/setup.zsh
+/home/yutou/fastlivo2/ros_ws/install/local_setup.zsh
+/home/yutou/fastlivo2/ros_ws/install/setup.fish
+/home/yutou/fastlivo2/ros_ws/install/local_setup.fish
+/home/yutou/fastlivo2/ros_ws/install/.rosinstall

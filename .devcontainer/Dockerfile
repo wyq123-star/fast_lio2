@@ -78,7 +78,9 @@ WORKDIR /home/$USERNAME
 
 # 配置环境变量
 RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc && \
-    echo "source ~/fastlivo2/catkin_ws/devel/setup.bash" >> ~/.bashrc 
+    echo "source ~/fastlivo2/catkin_ws/devel/setup.bash" >> ~/.bashrc && \
+    echo "source ~/fastlivo2/ros_ws/devel/setup.bash" >> ~/.bashrc 
+
 
 
 CMD ["/bin/bash"]

@@ -1,0 +1,9 @@
+<launch>
+    <!-- 调用包含乌龟模拟器和键盘控制的launch文件 -->
+    <include file="$(find fast_livo)/launch/mapping_avia.launch" />
+    
+    <!-- 假设你还有其他节点要启动，比如一个机器人导航的launch文件 -->
+    <!-- <include file="$(find my_robot_navigation)/launch/navigation.launch" /> -->
+    <node pkg="rosbag" type="play" name="rosbag_player" args="--clock -r 2 -l /home/yutou/fastlivo2/bag/Bright_Screen_Wall.bag" output="screen"/>
+    
+</launch>

@@ -30,4 +30,4 @@ services:
     stdin_open: true
     tty: true
     user: "yutou"  # 替换为镜像内用户
-    working_dir: "/home/yutou/fastlivo2"  # 替换为对应路径
+    working_dir: "/home/yutou/fastlivo2/ros_ws"  # 替换为对应路径
